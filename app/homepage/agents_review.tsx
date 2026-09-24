@@ -12,6 +12,7 @@ export default function Agents_Review() {
                     <h1 className="text-xl font-medium">
                         What our clients say about our services after they buy or sell a home with our agency
                     </h1>
+                    
                     <p className="font-medium text-gray-700">
                         Founded in 2012, Denver Real Estate Group is a locally and female owned, residential real estate agency with offices throughout our state area.
                     </p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Select_Options from "./selectoptions"
 import Denver_Areas from "../footer/denver_footer"
 import Support from "./support"
@@ -19,7 +20,17 @@ export default function Homepage() {
       <div className="absolute inset-0 bg-white/95" />
 
       <div className="relative z-10">
-        <Select_Options /> 
+        <Select_Options />
+
+        <div className="flex justify-center py-6">
+          <Link
+            href="/dashboard"
+            className="rounded-xl bg-[#bc8664] px-6 py-3 font-semibold text-white shadow-md transition hover:bg-[#a96f50]"
+          >
+            Go to Management Dashboard →
+          </Link>
+        </div>
+
         <PropertyCategories/> 
         <PropertySection />
         <TypeOfProperty />
@@ -31,8 +42,6 @@ export default function Homepage() {
         <Denver_Areas />
       </div>
 
-
     </main>
   );
 }
-
