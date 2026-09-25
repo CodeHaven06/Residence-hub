@@ -1,14 +1,14 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Section1() {
     return (
         <section className="relative h-[500px] w-full md:h-[600px] lg:h-[650px]">
-            <Image
-                src="/images/section1.jpg"
+            <img
+                src="https://thumbs.dreamstime.com/b/group-world-business-people-white-background-37443135.jpg"
                 alt="Our real estate team"
-                fill
-                priority
-                className="object-cover"
+                
+                
+                className="object-cover h-full w-full"
             />
 
             {/* Overlay */}
